@@ -87,6 +87,7 @@ public class AgenziaViaggi {
         }
         public String getMinMax(){
             return "Max: "+v[getPosizionePacchettoMax()].toString()+"\n\n Min: "+v[getPosizionePacchettoMin()].toString();
+
         }
     }
 }
