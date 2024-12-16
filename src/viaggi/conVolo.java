@@ -28,7 +28,7 @@ public class conVolo extends pacchettiViaggi {
             return false;
         }
 
-        public double getCosto() {
+        public double costoViaggi() {
             if (GetAndataRitorno()) {
                 return super.getCosto() + super.getCosto() / 100 * 85;
             }

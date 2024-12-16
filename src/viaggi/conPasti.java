@@ -25,10 +25,11 @@ public class conPasti extends pacchettiViaggi{
         }
         return false;
     }
-    public double getCosto() {
+    public double costoViaggi() {
         if (GetPensioneC()) {
             return super.getCosto() + getDurata()*35;
         }
         return super.getCosto() + getDurata()*25;
     }
 }
+

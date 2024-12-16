@@ -1,8 +1,9 @@
 package viaggi;
-public class pacchettiViaggi {
+public abstract class  pacchettiViaggi {
     private String destinazione;
     private int durata;
     private double costo;
+    public abstract double costoViaggi();
 
     public pacchettiViaggi(String destinazione, int durata, double costo){
         this.destinazione=destinazione;
@@ -26,7 +27,7 @@ public class pacchettiViaggi {
         this.durata = durata;
     }
 
-    public double getCosto() {
+    public double  getCosto() {
         return costo;
     }
 
